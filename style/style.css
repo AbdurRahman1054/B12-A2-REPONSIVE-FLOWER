@@ -10,3 +10,112 @@
   font-family: 'Noto Serif', serif;
   font-variation-settings: 'wdth' 100;
 }
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.display_flex {
+  display: flex;
+}
+/* Nab style start */
+.nav_bar {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_items {
+  justify-content: space-between;
+  gap: 48px;
+}
+.nav_items > li {
+  list-style-type: none;
+}
+.nav_items > li > a {
+  text-decoration: none;
+}
+.text_bold {
+  font-size: 1rem;
+  color: #252432;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+.text_gray {
+  font-size: 1rem;
+  color: #8987a1;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+.nav_cart {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+.responsive_cart {
+  display: none;
+}
+/* Nab style End */
+
+/* Banner Section Start */
+.banner {
+  align-items: center;
+  justify-content: space-between;
+}
+.banner_content {
+  max-width: 570px;
+}
+.banner_title {
+  font-size: 4.063rem;
+  font-weight: 700;
+  color: #000000;
+  font-family: 'Noto Serif', serif;
+}
+.banner_title_style {
+  color: #e95a08;
+  font-family: 'Noto Serif', serif;
+}
+.banner_description {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Inter', sans-serif;
+  margin-top: 13px;
+}
+
+/* RESOPONSIVE MEDIA QUARY */
+@media screen and (max-width: 576px) {
+  .nav_bar,
+  .banner_content {
+    padding: 0 10px 0 10px;
+  }
+  .nav_items {
+    display: none;
+  }
+  .mobile_cart {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+  }
+  .nav_cart_responsive > li {
+    list-style-type: none;
+  }
+  .responsive_cart {
+    display: block;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner_title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Noto Serif', serif;
+    margin-top: 28px;
+  }
+  .banner_description {
+    font-size: 0.875rem;
+  }
+  .banner_img {
+    width: 100%;
+  }
+}
