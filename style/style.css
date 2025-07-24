@@ -179,7 +179,7 @@
 /* Flower and Plants Lover End
  */
 
-/* Join the colorful Bunch */
+/* Join the colorful Bunch Start */
 
 .colorful {
   margin-top: 120px;
@@ -230,6 +230,8 @@ input::placeholder {
   font-size: 1rem;
   font-weight: 600;
 }
+/* Join the colorful Bunch End */
+
 /* RESOPONSIVE MEDIA QUARY */
 @media screen and (max-width: 576px) {
   /* Shared Style Start */
@@ -336,8 +338,34 @@ input::placeholder {
     margin: 20px 10px 0px 10px;
   }
   /* Flower and Plants Lover End */
-  ..form_content {
+
+  /* Join the colorful Bunch Start */
+  .colorful {
+    max-height: 275px;
+    margin-top: 44px;
+    padding-top: 137px;
+  }
+  .colorful_content {
+    /* padding-top: 200px; */
+    padding: 0px;
+  }
+  .colorful_title {
+    color: rgb(255, 255, 255);
+    font-family: Noto Serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  .form_content {
     display: flex;
     justify-content: center;
+    /* align-items: center; */
   }
+  input {
+    margin-top: 0px;
+  }
+  /* Join the colorful Bunch End */
 }
