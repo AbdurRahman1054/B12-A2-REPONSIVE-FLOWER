@@ -3,9 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+/* body {
   bg: #f5f8ff;
-}
+} */
 .inter {
   font-family: 'Inter', sans-serif;
 }
