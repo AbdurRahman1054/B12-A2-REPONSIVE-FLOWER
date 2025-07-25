@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  bg: #f5f8ff;
+}
 .inter {
   font-family: 'Inter', sans-serif;
 }
@@ -175,6 +178,91 @@
 }
 /* Flower and Plants Lover End
  */
+
+/* Letest Deals Start */
+
+.deals {
+  text-align: center;
+  margin-top: 130px;
+}
+/* .deals p {
+  width: 70%;
+  margin: 0 auto;
+} */
+/* .deals h1 {
+  font-size: 2rem;
+} */
+
+.text_bold {
+  color: rgb(255, 255, 255);
+  font-family: Noto Serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+.text_extra_bold {
+  color: rgb(255, 255, 255);
+  font-family: Noto Serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.deals_description {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 1.375rem;
+  font-weight: 400;
+  text-align: center;
+  max-width: 888px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.deals-card {
+  margin: 100px 0;
+}
+.deals-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.deal-card a {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+.deal-card1,
+.deal-card2,
+.deal-card3 {
+  color: #fff;
+  padding: 4rem 0;
+  border-radius: 24px;
+}
+.deal-card1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../assets/deal-bloom.png') center/cover no-repeat;
+}
+
+.deal-card2 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../assets/deal-zabo.png') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* .deal-card2 p {
+  font-size: 1.5rem;
+} */
+.deal-card3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../assets/deal-ana.png') center/cover no-repeat;
+}
 
 /* Join the colorful Bunch Start */
 
@@ -372,7 +460,17 @@ input::placeholder {
     margin: 20px 10px 0px 10px;
   }
   /* Flower and Plants Lover End */
+  /* Letest Deals */
 
+  .deals {
+    margin: 143px 10px 0px 10px;
+  }
+  .deals-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .deal-card2 {
+    grid-column: span 1;
+  }
   /* Join the colorful Bunch Start */
   .colorful {
     max-height: 275px;
@@ -409,5 +507,5 @@ input::placeholder {
   .company_link_3 {
     margin-top: 24px;
   }
-  /* Footer Secftin End */
+  /* Footer Section End */
 }
